@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="索引瀏覽 | 教育部臺灣客語辭典" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{% static 'images/ogImg.jpg' %}" />
+    <meta property="og:description" content="教育部臺灣客語辭典" />
+    <meta name="description" content="教育部臺灣客語辭典" />
+    <title>索引瀏覽 | 教育部臺灣客語辭典</title>
+
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/dataTables.bootstrap5.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/common.css' %}" rel="stylesheet">
+</head>
+<body class="d-flex flex-column h-100 size1">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top">
+        <div class="container-fluid px-lg-2 p-0 h-100 position-relative">
+            <h1 class="logo navbar-brand">
+                <a class="d-block px-2 pt-md-3" href="/index">
+                    <img src="{% static 'images/logo.png' %}" alt="教育部臺灣客語辭典" title="教育部臺灣客語辭典" height="80">
+                </a>
+            </h1>
+            <div class="top-nav d-md-block d-none">
+                <a id="u" class="acc" href="#u" accesskey="u" title="上方功能區塊">:::</a>
+                <ul class="navbar-nav float-end">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/index" title="回首頁">回首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/sitemap" title="網站導覽">網站導覽</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="font-sizing ps-2">
+                            <button type="button" class="size0 btn btn-outline-secondary" onclick="fontSize(0)">小</button>
+                            <button type="button" class="size1 btn btn-outline-secondary active" onclick="fontSize(1)">中</button>
+                            <button type="button" class="size2 btn btn-outline-secondary" onclick="fontSize(2)">大</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="navbar-toggler me-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse mb-2" id="navbarCollapse">
+                <ul class="navbar-nav main-nav px-2">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/news" title="最新消息">最新消息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/directions" title="辭典說明">辭典說明</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/thesaurus" title="索引瀏覽">索引瀏覽</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/appendix" title="辭典附錄">辭典附錄</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/resource" title="客語資源">客語資源</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/name_search" title="姓名查詢">姓名查詢</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/site_search" title="全站搜尋">全站搜尋</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/introduction" title="Introduction">Introduction</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav top-nav2 text-center py-2 d-md-none d-block">
+                    <li class="nav-item">
+                        <a class="nav-link py-1" aria-current="page" href="/index" title="回首頁">回首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-1" aria-current="page" href="/sitemap" title="網站導覽">網站導覽</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="font-sizing pt-2">
+                            <button type="button" class="size0 btn btn-outline-secondary" onclick="fontSize(0)">小</button>
+                            <button type="button" class="size1 btn btn-outline-secondary active" onclick="fontSize(1)">中</button>
+                            <button type="button" class="size2 btn btn-outline-secondary" onclick="fontSize(2)">大</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="d-flex position-relative">
+        <nav id="sidebar" class="">
+            <div class="custom-menu">
+                <button type="button" id="sidebarCollapse" class="btn" title="側邊分類選單" aria-label="側邊分類選單">
+                    <i class="bi bi-caret-left-fill"></i>
+                    <i class="bi bi-caret-right-fill"></i>
+                </button>
+            </div>
+            <div class="px-2 py-5">
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded active" data-bs-toggle="collapse" data-bs-target="#menu-collapse1" aria-expanded="true" title="客家知識庫">
+                            詞目分類索引
+                        </button>
+                        <div class="collapse show" id="menu-collapse1">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="/thesaurus" class="menu-link link-dark rounded active" title="稱謂身分">稱謂身分</a></li>
+                                <li><a href="/thesaurus" class="menu-link link-dark rounded" title="天文地理">天文地理</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <a href="/thesaurus" class="menu-link btn d-inline-flex align-items-center rounded" title="圖片分類索引">圖片分類索引</a>
+                    </li>
+                    <li class="mb-1">
+                        <a href="/thesaurus" class="menu-link btn d-inline-flex align-items-center rounded" title="聲韻調索引">聲韻調索引</a>
+                    </li>
+                    <li class="mb-1">
+                        <a href="/thesaurus" class="menu-link btn d-inline-flex align-items-center rounded" title="部首筆畫索引">部首筆畫索引</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container col-xxl-12">
+            <div class="row">
+                <a id="c" class="acc position-absolute top-0 start-0 ms-3" href="#c" accesskey="c" title="中央主要內容顯示區">:::</a>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/index" title="首頁">首頁</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">索引瀏覽</li>
+                    </ol>
+                </nav>
+
+                <div class="container col-xxl-10">
+                    <div class="title-wrap py-5">
+                        <h2 class="title">索引瀏覽</h2>
+                    </div>
+                    <div class="content-wrap pb-5 mb-5">
+                        <div class="toneOption d-flex flex-warp py-3">
+                            <div class="px-2">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="toneAll" id="toneAll" autocomplete="off" value="all" checked> <span>全選/不全選</span>
+                                </label>
+                            </div>
+                            <div class="px-2">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="tone[]" autocomplete="off" value="1" checked> <span>四縣腔</span>
+                                </label>
+                            </div>
+                            <div class="px-2">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="tone[]" autocomplete="off" value="2" checked> <span>海陸腔</span>
+                                </label>
+                            </div>
+                            <div class="px-2">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="tone[]" autocomplete="off" value="3" checked> <span>大埔腔</span>
+                                </label>
+                            </div>
+                            <div class="px-2">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="tone[]" autocomplete="off" value="4" checked> <span>饒平腔</span>
+                                </label>
+                            </div>
+                            <div class="px-2">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="tone[]" autocomplete="off" value="5" checked> <span>詔安腔</span>
+                                </label>
+                            </div>
+                            <div class="px-2">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="tone[]" autocomplete="off" value="6" checked> <span>南四縣腔</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        詞目分類索引 > 詞目分類索引 > 稱謂：30筆
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body p-0">
+                                        <div class="card border-0">
+                                            <div class="card-header">
+                                                <div class="row">
+                                                    <div class="col-xl-2 col-md-2 col-sm-3">音調標記</div>
+                                                    <div class="col-xl-4 col-md-10 col-sm-9">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"><input class="form-check-input" type="radio" name="mark" value="1" checked> 調型</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"><input class="form-check-input" type="radio" name="mark" value="2"> 調值</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"><input class="form-check-input" type="radio" name="mark" value="3"> 調類</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-5 col-md-10 col-sm-9 text-end">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"><input class="form-check-input" type="radio" name="fileExt" value="xls" checked> XLS</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"><input class="form-check-input" type="radio" name="fileExt" value="pdf"> PDF</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"><input class="form-check-input" type="radio" name="fileExt" value="ods"> ODS</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-1 col-md-2 col-sm-3 text-end">
+                                                        <button type="button"> 匯出<i class="bi bi-box-arrow-up"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <table class="table table-striped table-hover caption-top">
+                                                    <caption>索引列表</caption>
+                                                    <thead class="table-warning">
+                                                        <tr>
+                                                            <th scope="col">序號</th>
+                                                            <th scope="col">詞目</th>
+                                                            <th scope="col">音調標記與音檔</th>
+                                                            <th scope="col text-end">
+                                                                <label class="form-check-label">
+                                                                    <input class="form-check-input" type="checkbox" name="itemAll" id="itemAll" autocomplete="off" value="all"> <span>全選/不全選</span>
+                                                                </label>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>
+                                                                <a href="search_result">阿婆</a>
+                                                            </td>
+                                                            <td class="toneItems">
+                                                                <div class="row text-start">
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-primary bg-primary bg-opacity-25 px-1">四</span> a<sup>ˊ</sup> po<sup>ˇ</sup></div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-danger bg-danger bg-opacity-25 px-1">海</span> a<sup>+</sup> po</div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-success bg-success bg-opacity-25 px-1">大</span> a<sup>+</sup> po<sup>ˇ</sup></div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-warning bg-warning bg-opacity-25 px-1">平</span> a<sup>ˇ</sup> po</div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-info bg-info bg-opacity-25 px-1">詔</span> a<sup>ˇ</sup> poo<sup>ˋ</sup></div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-secondary bg-secondary bg-opacity-25 px-1">南</span> a<sup>ˊ</sup> po<sup>ˇ</sup></div>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-end"><input class="form-check-input" type="checkbox" name="item[]" autocomplete="off" value="1" aria-label="選取" title="選取"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>
+                                                                <a href="search_result">阿伯</a>
+                                                            </td>
+                                                            <td class="toneItems">
+                                                                <div class="row text-start">
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-primary bg-primary bg-opacity-25 px-1">四</span> a<sup>ˊ</sup> bag<sup>ˋ</sup></div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-danger bg-danger bg-opacity-25 px-1">海</span> a<sup>+</sup> bag</div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-success bg-success bg-opacity-25 px-1">大</span> a<sup>+</sup> bag<sup>^</sup></div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-warning bg-warning bg-opacity-25 px-1">平</span> a<sup>ˇ</sup> bag<sup>ˋ</sup></div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-info bg-info bg-opacity-25 px-1">詔</span> a<sup>ˇ</sup> ba<sup>ˊ</sup></div>
+                                                                    </div>
+                                                                    <div class="col-lg-4 col-md-6 col-12 my-1">
+                                                                        <div><span class="border border-secondary bg-secondary bg-opacity-25 px-1">南</span> a<sup>ˊ</sup> bag<sup>ˋ</sup></div>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-end"><input class="form-check-input" type="checkbox" name="item[]" autocomplete="off" value="1" aria-label="選取" title="選取"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="card-footer">
+                                                <nav class="pt-3">
+                                                    <ul class="pagination flex-wrap justify-content-center">
+                                                        <li class="page-item disabled">
+                                                            <a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+                                                        </li>
+                                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                        <li class="page-item">
+                                                            <a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="row text-center py-3">
+                                <div class="col-md-2 col-4 my-1">
+                                    <div><span class="border border-primary bg-primary bg-opacity-25 px-1">四</span> 四縣腔</div>
+                                </div>
+                                <div class="col-md-2 col-4 my-1">
+                                    <div><span class="border border-danger bg-danger bg-opacity-25 px-1">海</span> 海陸腔</div>
+                                </div>
+                                <div class="col-md-2 col-4 my-1">
+                                    <div><span class="border border-success bg-success bg-opacity-25 px-1">大</span> 大埔腔</div>
+                                </div>
+                                <div class="col-md-2 col-4 my-1">
+                                    <div><span class="border border-warning bg-warning bg-opacity-25 px-1">平</span> 饒平腔</div>
+                                </div>
+                                <div class="col-md-2 col-4 my-1">
+                                    <div><span class="border border-info bg-info bg-opacity-25 px-1">詔</span> 詔安腔</div>
+                                </div>
+                                <div class="col-md-2 col-4 my-1">
+                                    <div><span class="border border-secondary bg-secondary bg-opacity-25 px-1">南</span> 南四縣腔</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </main>
+    
+    <footer class="footer mt-auto p-2">
+        <div class="container-fluid position-relative">
+            <a id="b" class="acc position-absolute top-0 start-0" href="#b" accesskey="b" title="下方功能區塊">:::</a>
+            <p>中華民國教育部 版權所有 &copy; 2023 Ministry of Education, R.O.C. All rights reserved.&reg;</p>
+            <p><a href="https://email.moe.gov.tw/Home.aspx" target="_blank" title="部長信箱">部長信箱 <i class="bi bi-box-arrow-up-right"></i></a></p>
+            <p>更新日期：2023/08/31<span class="mx-3 d-md-inline d-none">&nbsp;</span><br class="d-md-none d-block">瀏覽人次累計：500,000</p>
+            
+            <a class="aa-badge" href="https://accessibility.moda.gov.tw/Applications/Detail?category=XXXXXXXXXXXXXX" target="_blank" title="無障礙網站(另開視窗)"> <img src="{% static 'images/accessibility.webp' %}" alt="通過AA無障礙網頁檢測" height="40"></a>
+        </div>
+    </footer>
+
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/jquery.dataTables.min.js' %}"></script>
+    <script src="{% static 'js/dataTables.bootstrap5.min.js' %}"></script>
+    <script src="{% static 'js/common.js' %}"></script>
+
+    <script type="text/javascript">
+    (function () {
+        'use strict';
+
+        // 選取腔調
+        var toneCheck = "input[name='tone[]']";
+        var toneAllsCheck = "input[name='toneAlls[]']";
+        $("#toneAll").on('click', function(){
+          if($("#toneAll").prop("checked")) {
+            $(toneCheck).add(toneAllsCheck).prop("checked", true);
+          } else {
+            $(toneCheck).add(toneAllsCheck).prop("checked", false);
+          }
+        });
+        $("input[name='toneAlls[]']").on('click', function() {
+          if($(this).prop("checked")) {
+            $(this).closest("li").find(toneCheck + ', ' + toneAllsCheck).prop("checked", true);
+          } else {
+            $(this).closest("li").find(toneCheck + ', ' + toneAllsCheck).prop("checked", false);
+          }
+        });
+
+        // 選取列表
+        var itemCheck = "input[name='item[]']";
+        var itemAllsCheck = "input[name='itemAlls[]']";
+        $("#itemAll").on('click', function(){
+          if($("#itemAll").prop("checked")) {
+            $(itemCheck).add(itemAllsCheck).prop("checked", true);
+          } else {
+            $(itemCheck).add(itemAllsCheck).prop("checked", false);
+          }
+        });
+        $("input[name='itemAlls[]']").on('click', function() {
+          if($(this).prop("checked")) {
+            $(this).closest("li").find(itemCheck + ', ' + itemAllsCheck).prop("checked", true);
+          } else {
+            $(this).closest("li").find(itemCheck + ', ' + itemAllsCheck).prop("checked", false);
+          }
+        });
+    })();
+    </script>
+</body>
+</html>
