@@ -1,0 +1,381 @@
+20251106-06:24:32.675 : Created session
+20251106-06:24:32.728 : Connecting to 172.16.16.213 on port 9849
+20251106-06:24:32.763 : Connection succeeded
+20251106-06:24:32.776 : Session reset: ResetOnLogon
+20251106-06:24:32.796 : Session reset: ResetSeqNumFlag
+20251106-06:24:32.799 : Initiated logon request
+20251106-06:24:37.891 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:25:03.073 : Connecting to 172.16.16.213 on port 9849
+20251106-06:25:03.083 : Connection succeeded
+20251106-06:25:03.098 : Session reset: ResetOnLogon
+20251106-06:25:03.108 : Session reset: ResetSeqNumFlag
+20251106-06:25:03.109 : Initiated logon request
+20251106-06:25:08.128 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:25:33.369 : Connecting to 172.16.16.213 on port 9849
+20251106-06:25:33.378 : Connection succeeded
+20251106-06:25:33.389 : Session reset: ResetOnLogon
+20251106-06:25:33.398 : Session reset: ResetSeqNumFlag
+20251106-06:25:33.399 : Initiated logon request
+20251106-06:25:38.405 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:31:18.949 : Created session
+20251106-06:31:18.988 : Connecting to 172.16.16.213 on port 9849
+20251106-06:31:19.030 : Connection succeeded
+20251106-06:31:19.041 : Session reset: ResetOnLogon
+20251106-06:31:19.059 : Session reset: ResetSeqNumFlag
+20251106-06:31:19.061 : Initiated logon request
+20251106-06:31:24.130 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:31:49.310 : Connecting to 172.16.16.213 on port 9849
+20251106-06:31:49.320 : Connection succeeded
+20251106-06:31:49.335 : Session reset: ResetOnLogon
+20251106-06:31:49.343 : Session reset: ResetSeqNumFlag
+20251106-06:31:49.348 : Initiated logon request
+20251106-06:31:54.361 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:32:19.616 : Connecting to 172.16.16.213 on port 9849
+20251106-06:32:19.621 : Connection succeeded
+20251106-06:32:19.633 : Session reset: ResetOnLogon
+20251106-06:32:19.641 : Session reset: ResetSeqNumFlag
+20251106-06:32:19.643 : Initiated logon request
+20251106-06:33:31.550 : Created session
+20251106-06:33:31.605 : Connecting to 172.16.16.213 on port 9849
+20251106-06:33:31.612 : Connection succeeded
+20251106-06:33:31.624 : Session reset: ResetOnLogon
+20251106-06:33:31.639 : Session reset: ResetSeqNumFlag
+20251106-06:33:31.642 : Initiated logon request
+20251106-06:33:36.681 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:34:01.912 : Connecting to 172.16.16.213 on port 9849
+20251106-06:34:01.919 : Connection succeeded
+20251106-06:34:01.931 : Session reset: ResetOnLogon
+20251106-06:34:35.604 : Created session
+20251106-06:34:35.642 : Connecting to 172.16.16.213 on port 9849
+20251106-06:34:35.647 : Connection succeeded
+20251106-06:34:35.661 : Session reset: ResetOnLogon
+20251106-06:34:40.048 : Session reset: ResetSeqNumFlag
+20251106-06:34:40.050 : Initiated logon request
+20251106-06:34:45.104 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:35:06.326 : Connecting to 172.16.16.213 on port 9849
+20251106-06:35:06.336 : Connection succeeded
+20251106-06:35:06.350 : Session reset: ResetOnLogon
+20251106-06:35:11.841 : Session reset: ResetSeqNumFlag
+20251106-06:35:11.841 : Initiated logon request
+20251106-06:35:16.853 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:35:37.121 : Connecting to 172.16.16.213 on port 9849
+20251106-06:35:37.129 : Connection succeeded
+20251106-06:35:37.142 : Session reset: ResetOnLogon
+20251106-06:35:40.237 : Session reset: ResetSeqNumFlag
+20251106-06:35:40.237 : Initiated logon request
+20251106-06:35:45.249 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:36:09.457 : Connecting to 172.16.16.213 on port 9849
+20251106-06:36:11.532 : Connection succeeded
+20251106-06:36:11.547 : Session reset: ResetOnLogon
+20251106-06:36:16.808 : Session reset: ResetSeqNumFlag
+20251106-06:36:16.808 : Initiated logon request
+20251106-06:36:28.809 : Session FIX.4.2:TEST1->Simulator484 disconnecting: Timed out waiting for logon response
+20251106-06:36:39.926 : Connecting to 172.16.16.213 on port 9849
+20251106-06:36:39.937 : Connection succeeded
+20251106-06:36:39.952 : Session reset: ResetOnLogon
+20251106-06:36:39.961 : Session reset: ResetSeqNumFlag
+20251106-06:36:39.961 : Initiated logon request
+20251106-06:36:44.979 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:37:10.269 : Connecting to 172.16.16.213 on port 9849
+20251106-06:37:10.277 : Connection succeeded
+20251106-06:37:10.289 : Session reset: ResetOnLogon
+20251106-06:37:10.299 : Session reset: ResetSeqNumFlag
+20251106-06:37:10.300 : Initiated logon request
+20251106-06:37:15.310 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:37:40.608 : Connecting to 172.16.16.213 on port 9849
+20251106-06:37:40.619 : Connection succeeded
+20251106-06:37:40.635 : Session reset: ResetOnLogon
+20251106-06:37:40.643 : Session reset: ResetSeqNumFlag
+20251106-06:37:40.644 : Initiated logon request
+20251106-06:37:45.657 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251106-06:38:59.270 : Created session
+20251106-06:38:59.319 : Connecting to 172.16.16.213 on port 9849
+20251106-06:38:59.361 : Connection succeeded
+20251106-06:38:59.376 : Session reset: ResetOnLogon
+20251106-06:38:59.391 : Session reset: ResetSeqNumFlag
+20251106-06:38:59.392 : Initiated logon request
+20251106-06:38:59.448 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-06:38:59.450 : Received logon
+20251106-06:42:45.526 : Created session
+20251106-06:42:45.607 : Connecting to 172.16.16.213 on port 9849
+20251106-06:42:45.613 : Connection succeeded
+20251106-06:42:45.625 : Session reset: ResetOnLogon
+20251106-06:42:45.640 : Session reset: ResetSeqNumFlag
+20251106-06:42:45.642 : Initiated logon request
+20251106-06:42:45.700 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-06:42:45.702 : Received logon
+20251106-06:45:22.718 : Created session
+20251106-06:45:22.763 : Connecting to 172.16.16.213 on port 9849
+20251106-06:45:22.803 : Connection succeeded
+20251106-06:45:22.817 : Session reset: ResetOnLogon
+20251106-06:45:22.833 : Session reset: ResetSeqNumFlag
+20251106-06:45:22.835 : Initiated logon request
+20251106-06:45:22.861 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-06:45:22.862 : Received logon
+20251106-06:49:49.179 : Created session
+20251106-06:49:49.226 : Connecting to 172.16.16.213 on port 9849
+20251106-06:49:49.252 : Connection succeeded
+20251106-06:49:49.265 : Session reset: ResetOnLogon
+20251106-06:49:49.280 : Session reset: ResetSeqNumFlag
+20251106-06:49:49.282 : Initiated logon request
+20251106-06:49:49.307 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-06:49:49.309 : Received logon
+20251106-06:51:33.253 : Created session
+20251106-06:51:33.295 : Connecting to 172.16.16.213 on port 9849
+20251106-06:51:33.322 : Connection succeeded
+20251106-06:51:33.334 : Session reset: ResetOnLogon
+20251106-06:51:33.349 : Session reset: ResetSeqNumFlag
+20251106-06:51:33.351 : Initiated logon request
+20251106-06:51:33.377 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-06:51:33.378 : Received logon
+20251106-06:59:51.382 : Created session
+20251106-06:59:51.429 : Connecting to 172.16.16.213 on port 9849
+20251106-06:59:51.469 : Connection succeeded
+20251106-06:59:51.482 : Session reset: ResetOnLogon
+20251106-06:59:51.498 : Session reset: ResetSeqNumFlag
+20251106-06:59:51.500 : Initiated logon request
+20251106-06:59:51.527 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-06:59:51.528 : Received logon
+20251106-07:09:47.659 : Created session
+20251106-07:09:47.746 : Connecting to 172.16.16.213 on port 9849
+20251106-07:09:47.752 : Connection succeeded
+20251106-07:09:47.766 : Session reset: ResetOnLogon
+20251106-07:09:47.783 : Session reset: ResetSeqNumFlag
+20251106-07:09:47.785 : Initiated logon request
+20251106-07:09:47.835 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-07:09:47.837 : Received logon
+20251106-07:13:03.182 : Created session
+20251106-07:13:03.229 : Connecting to 172.16.16.213 on port 9849
+20251106-07:13:03.279 : Connection succeeded
+20251106-07:13:03.291 : Session reset: ResetOnLogon
+20251106-07:13:03.306 : Session reset: ResetSeqNumFlag
+20251106-07:13:03.308 : Initiated logon request
+20251106-07:13:03.353 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-07:13:03.354 : Received logon
+20251106-07:13:47.548 : Created session
+20251106-07:13:47.591 : Connecting to 172.16.16.213 on port 9849
+20251106-07:13:47.631 : Connection succeeded
+20251106-07:13:47.644 : Session reset: ResetOnLogon
+20251106-07:13:47.664 : Session reset: ResetSeqNumFlag
+20251106-07:13:47.666 : Initiated logon request
+20251106-07:13:47.690 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-07:13:47.691 : Received logon
+20251106-07:14:09.579 : Created session
+20251106-07:14:09.624 : Connecting to 172.16.16.213 on port 9849
+20251106-07:14:09.631 : Connection succeeded
+20251106-07:14:09.646 : Session reset: ResetOnLogon
+20251106-07:14:09.662 : Session reset: ResetSeqNumFlag
+20251106-07:14:09.664 : Initiated logon request
+20251106-07:14:09.716 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-07:14:09.718 : Received logon
+20251106-07:15:35.874 : Created session
+20251106-07:15:35.918 : Connecting to 172.16.16.213 on port 9849
+20251106-07:15:35.960 : Connection succeeded
+20251106-07:15:35.976 : Session reset: ResetOnLogon
+20251106-07:15:35.991 : Session reset: ResetSeqNumFlag
+20251106-07:15:35.993 : Initiated logon request
+20251106-07:15:36.047 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-07:15:36.048 : Received logon
+20251106-07:17:52.558 : Created session
+20251106-07:17:52.600 : Connecting to 172.16.16.213 on port 9849
+20251106-07:17:52.640 : Connection succeeded
+20251106-07:17:52.652 : Session reset: ResetOnLogon
+20251106-07:17:52.666 : Session reset: ResetSeqNumFlag
+20251106-07:17:52.668 : Initiated logon request
+20251106-07:17:52.683 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251106-07:17:52.685 : Received logon
+20251112-01:14:24.921 : Session FIX.4.2:TEST1->Simulator484 already disconnected: Resetting...
+20251112-01:14:24.933 : Session reset: New session
+20251112-01:14:24.933 : Created session
+20251112-01:14:24.975 : Connecting to 172.16.16.213 on port 9849
+20251112-01:14:24.981 : Connection succeeded
+20251112-01:14:24.998 : Session reset: ResetOnLogon
+20251112-01:14:25.016 : Session reset: ResetSeqNumFlag
+20251112-01:14:25.018 : Initiated logon request
+20251112-01:14:30.085 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251112-01:14:55.201 : Connecting to 172.16.16.213 on port 9849
+20251112-01:14:55.205 : Connection succeeded
+20251112-01:14:55.217 : Session reset: ResetOnLogon
+20251112-01:14:55.218 : Session reset: ResetSeqNumFlag
+20251112-01:14:55.218 : Initiated logon request
+20251112-01:15:00.232 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251112-01:15:25.405 : Connecting to 172.16.16.213 on port 9849
+20251112-01:15:25.411 : Connection succeeded
+20251112-01:15:25.425 : Session reset: ResetOnLogon
+20251112-01:15:25.433 : Session reset: ResetSeqNumFlag
+20251112-01:15:25.433 : Initiated logon request
+20251112-01:15:30.441 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251112-01:15:55.586 : Connecting to 172.16.16.213 on port 9849
+20251112-01:15:55.591 : Connection succeeded
+20251112-01:15:55.603 : Session reset: ResetOnLogon
+20251112-01:15:55.611 : Session reset: ResetSeqNumFlag
+20251112-01:15:55.611 : Initiated logon request
+20251112-01:16:00.622 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251112-01:16:25.802 : Connecting to 172.16.16.213 on port 9849
+20251112-01:16:25.806 : Connection succeeded
+20251112-01:16:25.818 : Session reset: ResetOnLogon
+20251112-01:16:25.818 : Session reset: ResetSeqNumFlag
+20251112-01:16:25.818 : Initiated logon request
+20251112-01:16:30.836 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251112-01:16:55.984 : Connecting to 172.16.16.213 on port 9849
+20251112-01:16:55.988 : Connection succeeded
+20251112-01:16:55.988 : Session reset: ResetOnLogon
+20251112-01:17:22.903 : Created session
+20251112-01:17:22.918 : Connecting to 172.16.16.213 on port 9849
+20251112-01:17:22.918 : Connection succeeded
+20251112-01:17:22.935 : Session reset: ResetOnLogon
+20251112-01:17:22.950 : Session reset: ResetSeqNumFlag
+20251112-01:17:22.950 : Initiated logon request
+20251112-01:17:22.965 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251112-01:17:22.981 : Received logon
+20251112-01:23:21.411 : Created session
+20251112-01:23:21.447 : Connecting to 172.16.16.213 on port 9849
+20251112-01:23:21.476 : Connection succeeded
+20251112-01:23:21.489 : Session reset: ResetOnLogon
+20251112-01:23:21.506 : Session reset: ResetSeqNumFlag
+20251112-01:23:21.508 : Initiated logon request
+20251112-01:23:26.542 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251112-01:23:51.669 : Connecting to 172.16.16.213 on port 9849
+20251112-01:23:51.673 : Connection succeeded
+20251112-01:23:51.685 : Session reset: ResetOnLogon
+20251112-01:23:51.694 : Session reset: ResetSeqNumFlag
+20251112-01:23:51.694 : Initiated logon request
+20251112-01:23:56.703 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251112-01:24:21.833 : Connecting to 172.16.16.213 on port 9849
+20251112-01:24:21.837 : Connection succeeded
+20251112-01:24:21.853 : Session reset: ResetOnLogon
+20251112-01:24:21.861 : Session reset: ResetSeqNumFlag
+20251112-01:24:21.862 : Initiated logon request
+20251112-01:46:26.070 : Created session
+20251112-01:46:26.132 : Connecting to 172.16.16.213 on port 9849
+20251112-01:46:26.168 : Connection succeeded
+20251112-01:46:26.180 : Session reset: ResetOnLogon
+20251112-01:46:26.197 : Session reset: ResetSeqNumFlag
+20251112-01:46:26.198 : Initiated logon request
+20251112-01:46:26.220 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251112-01:46:26.231 : Received logon
+20251112-01:49:04.207 : Created session
+20251112-01:49:04.254 : Connecting to 172.16.16.213 on port 9849
+20251112-01:49:04.261 : Connection succeeded
+20251112-01:49:04.273 : Session reset: ResetOnLogon
+20251112-01:49:04.291 : Session reset: ResetSeqNumFlag
+20251112-01:49:04.292 : Initiated logon request
+20251112-01:49:09.356 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251112-01:49:38.674 : Created session
+20251112-01:49:38.689 : Connecting to 172.16.16.213 on port 9849
+20251112-01:49:38.713 : Connection succeeded
+20251112-01:49:38.724 : Session reset: ResetOnLogon
+20251112-01:49:38.746 : Session reset: ResetSeqNumFlag
+20251112-01:49:38.747 : Initiated logon request
+20251112-01:49:38.796 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251112-01:49:38.796 : Received logon
+20251112-01:49:58.851 : Initiated logout request
+20251112-01:49:58.856 : Received logout response
+20251112-01:49:58.857 : Session FIX.4.2:TEST1->Simulator484 disconnecting: Received logout response
+20251112-01:50:05.155 : Created session
+20251112-01:50:05.159 : Connecting to 172.16.16.213 on port 9849
+20251112-01:50:05.162 : Connection succeeded
+20251112-01:50:05.173 : Session reset: ResetOnLogon
+20251112-01:50:05.183 : Session reset: ResetSeqNumFlag
+20251112-01:50:05.183 : Initiated logon request
+20251112-01:50:05.191 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251112-01:50:05.191 : Received logon
+20251112-01:52:13.476 : Created session
+20251112-01:52:13.495 : Connecting to 172.16.16.213 on port 9849
+20251112-01:52:13.536 : Connection succeeded
+20251112-01:52:13.552 : Session reset: ResetOnLogon
+20251112-01:52:13.570 : Session reset: ResetSeqNumFlag
+20251112-01:52:13.570 : Initiated logon request
+20251112-01:52:13.611 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251112-01:52:13.613 : Received logon
+20251112-01:57:32.710 : Created session
+20251112-01:57:32.742 : Connecting to 172.16.16.213 on port 9849
+20251112-01:57:32.754 : Connection succeeded
+20251112-01:57:32.769 : Session reset: ResetOnLogon
+20251112-01:57:32.786 : Session reset: ResetSeqNumFlag
+20251112-01:57:32.788 : Initiated logon request
+20251112-01:57:37.846 : Session FIX.4.2:TEST1->Simulator484 disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251112-01:57:45.386 : Created session
+20251112-01:57:45.430 : Connecting to 172.16.16.213 on port 9849
+20251112-01:57:45.454 : Connection succeeded
+20251112-01:57:45.469 : Session reset: ResetOnLogon
+20251112-01:57:45.485 : Session reset: ResetSeqNumFlag
+20251112-01:57:45.485 : Initiated logon request
+20251112-01:57:45.506 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251112-01:57:45.506 : Received logon
+20251211-06:35:33.547 : Session FIX.4.2:TEST1->Simulator484 already disconnected: Resetting...
+20251211-06:35:33.558 : Session reset: New session
+20251211-06:35:33.560 : Created session
+20251211-06:35:33.609 : Connecting to 172.16.16.213 on port 9849
+20251211-06:35:33.617 : Connection succeeded
+20251211-06:35:33.631 : Session reset: ResetOnLogon
+20251211-06:35:33.653 : Session reset: ResetSeqNumFlag
+20251211-06:35:33.655 : Initiated logon request
+20251211-06:35:33.712 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251211-06:35:33.713 : Received logon
+20251211-06:37:52.923 : Created session
+20251211-06:37:52.966 : Connecting to 172.16.16.213 on port 9849
+20251211-06:37:53.009 : Connection succeeded
+20251211-06:37:53.024 : Session reset: ResetOnLogon
+20251211-06:37:53.038 : Session reset: ResetSeqNumFlag
+20251211-06:37:53.040 : Initiated logon request
+20251211-06:37:53.066 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251211-06:37:53.068 : Received logon
+20251211-06:43:25.224 : Created session
+20251211-06:43:25.300 : Connecting to 172.16.16.213 on port 9849
+20251211-06:43:25.341 : Connection succeeded
+20251211-06:43:25.355 : Session reset: ResetOnLogon
+20251211-06:43:25.371 : Session reset: ResetSeqNumFlag
+20251211-06:43:25.373 : Initiated logon request
+20251211-06:43:25.427 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251211-06:43:25.428 : Received logon
+20251211-06:53:15.398 : Created session
+20251211-06:53:15.475 : Connecting to 172.16.16.213 on port 9849
+20251211-06:53:15.510 : Connection succeeded
+20251211-06:53:15.523 : Session reset: ResetOnLogon
+20251211-06:53:15.540 : Session reset: ResetSeqNumFlag
+20251211-06:53:15.542 : Initiated logon request
+20251211-06:53:15.604 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20251211-06:53:15.606 : Received logon

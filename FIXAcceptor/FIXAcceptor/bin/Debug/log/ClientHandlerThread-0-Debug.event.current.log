@@ -1,0 +1,71 @@
+20251212-01:33:09.086 : connected
+20251212-01:33:42.501 : SocketReader Error: Socket exception (127.0.0.1:63385): 遠端主機已強制關閉一個現存的連線。
+20251212-01:33:42.501 : shutdown requested: Disconnected
+20251212-01:33:42.502 : shutdown requested: 遠端主機已強制關閉一個現存的連線。
+20251212-01:33:42.502 : shutdown
+20251212-01:35:30.041 : connected
+20251212-01:37:38.317 : connected
+20251212-01:46:10.712 : connected
+20251212-01:48:24.964 : SocketReader Error: Socket exception (127.0.0.1:65506): 遠端主機已強制關閉一個現存的連線。
+20251212-01:48:24.965 : shutdown requested: Disconnected
+20251212-01:48:24.965 : shutdown requested: 遠端主機已強制關閉一個現存的連線。
+20251212-01:48:24.965 : shutdown
+20260204-06:10:41.981 : connected
+20260204-06:11:54.461 : shutdown requested: Disconnected
+20260204-06:11:54.461 : shutdown
+20260204-06:13:59.950 : connected
+20260204-06:13:59.986 : shutdown requested: Disconnected
+20260204-06:13:59.987 : shutdown
+20260204-06:15:13.869 : connected
+20260204-06:15:13.913 : shutdown requested: Disconnected
+20260204-06:15:13.914 : shutdown
+20260205-01:36:18.729 : connected
+20260205-01:36:27.885 : shutdown requested: Disconnected
+20260205-01:36:27.885 : shutdown
+20260205-01:56:23.348 : connected
+20260205-02:08:02.225 : connected
+20260205-02:11:17.883 : connected
+20260205-02:26:14.944 : connected
+20260205-02:31:14.199 : connected
+20260205-02:40:01.113 : connected
+20260205-02:42:29.858 : connected
+20260205-02:44:37.784 : connected
+20260205-02:47:26.986 : connected
+20260205-02:52:46.243 : connected
+20260205-02:52:46.394 : Error on Session 'FIX.4.2:SELLSIDE->BUYSIDE': System.IO.IOException: 無法寫入資料至傳輸連接: 遠端主機已強制關閉一個現存的連線。。 ---> System.Net.Sockets.SocketException: 遠端主機已強制關閉一個現存的連線。
+   於 System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   於 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   於 QuickFix.SocketReader.Send(String data)
+   於 QuickFix.ClientHandlerThread.Send(String data)
+   於 QuickFix.Session.Send(String message)
+   於 QuickFix.Session.SendRaw(Message message, Int32 seqNum)
+   於 QuickFix.Session.GenerateLogout(Message other, String text)
+   於 QuickFix.Session.NextLogout(Message logout)
+   於 QuickFix.Session.Next(MessageBuilder msgBuilder)
+   於 QuickFix.Session.NextMessage(String msgStr)
+   於 QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+20260205-02:52:46.395 : SocketReader Error: Socket exception (127.0.0.1:57216): 遠端主機已強制關閉一個現存的連線。
+20260205-02:52:46.396 : shutdown requested: Disconnected
+20260205-02:52:46.396 : shutdown requested: 遠端主機已強制關閉一個現存的連線。
+20260205-02:52:46.396 : shutdown
+20260205-02:55:34.766 : connected
+20260205-03:20:03.182 : connected
+20260205-03:23:15.900 : shutdown requested: Disconnected
+20260205-03:23:15.900 : shutdown
+20260205-03:32:09.226 : connected
+20260205-05:07:51.976 : shutdown requested: Disconnected
+20260205-05:07:51.977 : shutdown
+20260206-01:00:39.999 : connected
+20260206-06:39:39.349 : SocketReader Error: Socket exception (127.0.0.1:60475): 遠端主機已強制關閉一個現存的連線。
+20260206-06:39:39.349 : shutdown requested: Disconnected
+20260206-06:39:39.349 : shutdown requested: 遠端主機已強制關閉一個現存的連線。
+20260206-06:39:39.349 : shutdown
+20260210-01:02:14.649 : connected
+20260224-01:43:20.225 : connected
+20260224-03:53:14.992 : shutdown requested: Disconnected
+20260224-03:53:14.992 : shutdown
+20260224-07:54:29.143 : connected
+20260224-08:02:53.319 : shutdown requested: Disconnected
+20260224-08:02:53.320 : shutdown

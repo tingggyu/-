@@ -1,0 +1,16 @@
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\bin\Debug\FIXAcceptor.exe.config
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\bin\Debug\FIXAcceptor.exe
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\bin\Debug\FIXAcceptor.pdb
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\bin\Debug\QuickFix.dll
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\bin\Debug\QuickFix.FIX42.dll
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\bin\Debug\QuickFix.xml
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\bin\Debug\QuickFix.FIX42.xml
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.csproj.AssemblyReference.cache
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.Form1.resources
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.Properties.Resources.resources
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.csproj.GenerateResource.cache
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.csproj.CoreCompileInputs.cache
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAccep.6CA911EB.Up2Date
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.exe
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.pdb
+C:\Users\Z00205791\source\repos\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.exe.config

@@ -1,0 +1,214 @@
+20251211-07:07:09.386 : Created session
+20251211-07:07:09.437 : Connecting to 127.0.0.1 on port 5001
+20251211-07:07:11.497 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:07:26.895 : Created session
+20251211-07:07:26.942 : Connecting to 127.0.0.1 on port 5001
+20251211-07:07:26.984 : Connection succeeded
+20251211-07:07:26.994 : Initiated logon request
+20251211-07:07:27.006 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: Received msg type '5' when not logged on
+20251211-07:07:57.278 : Connecting to 127.0.0.1 on port 5001
+20251211-07:07:57.285 : Connection succeeded
+20251211-07:07:57.286 : Initiated logon request
+20251211-07:07:57.295 : Received logon
+20251211-07:07:57.296 : MsgSeqNum too high, expecting 1 but received 3
+20251211-07:07:57.297 : Sent ResendRequest FROM: 1 TO: 0
+20251211-07:07:57.307 : ResendRequest for messages FROM: 1 TO: 0 has been satisfied.
+20251211-07:07:57.307 : Received SequenceReset FROM: 1 TO: 4
+20251211-07:08:04.179 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-07:08:21.208 : Created session
+20251211-07:08:21.246 : Connecting to 127.0.0.1 on port 5001
+20251211-07:08:21.272 : Connection succeeded
+20251211-07:08:21.283 : Initiated logon request
+20251211-07:08:21.353 : Received logon
+20251211-07:08:47.047 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-07:08:51.554 : Connecting to 127.0.0.1 on port 5001
+20251211-07:08:53.585 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:09:21.824 : Connecting to 127.0.0.1 on port 5001
+20251211-07:09:23.850 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:09:52.113 : Connecting to 127.0.0.1 on port 5001
+20251211-07:09:54.145 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:10:22.459 : Connecting to 127.0.0.1 on port 5001
+20251211-07:10:24.492 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:10:52.766 : Connecting to 127.0.0.1 on port 5001
+20251211-07:10:54.800 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:16:06.153 : Created session
+20251211-07:16:06.196 : Connecting to 127.0.0.1 on port 5001
+20251211-07:16:06.223 : Connection succeeded
+20251211-07:16:06.234 : Initiated logon request
+20251211-07:16:06.272 : Received logon
+20251211-07:16:06.274 : Got resend request from 5 to 0
+20251211-07:16:06.277 : Sent SequenceReset TO: 7
+20251211-07:16:57.864 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-07:17:06.763 : Connecting to 127.0.0.1 on port 5001
+20251211-07:27:45.850 : Created session
+20251211-07:27:45.897 : Connecting to 127.0.0.1 on port 5001
+20251211-07:27:45.904 : Connection succeeded
+20251211-07:27:45.918 : Initiated logon request
+20251211-07:27:45.961 : Received logon
+20251211-07:32:17.050 : Created session
+20251211-07:32:17.091 : Connecting to 127.0.0.1 on port 5001
+20251211-07:32:17.131 : Connection succeeded
+20251211-07:32:17.144 : Initiated logon request
+20251211-07:32:17.201 : Received logon
+20251211-07:33:10.770 : Sent test request TEST
+20251211-07:33:25.178 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-07:33:47.961 : Connecting to 127.0.0.1 on port 5001
+20251211-07:33:50.014 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:34:07.894 : Created session
+20251211-07:34:07.940 : Connecting to 127.0.0.1 on port 5001
+20251211-07:34:07.982 : Connection succeeded
+20251211-07:34:07.995 : Initiated logon request
+20251211-07:34:08.068 : Received logon
+20251211-07:34:08.070 : Got resend request from 14 to 0
+20251211-07:34:08.072 : Sent SequenceReset TO: 17
+20251211-07:34:40.992 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-07:35:08.535 : Connecting to 127.0.0.1 on port 5001
+20251211-07:35:10.562 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:35:38.784 : Connecting to 127.0.0.1 on port 5001
+20251211-07:35:40.813 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:36:09.071 : Connecting to 127.0.0.1 on port 5001
+20251211-07:36:11.102 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:36:39.344 : Connecting to 127.0.0.1 on port 5001
+20251211-07:36:41.377 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:37:09.607 : Connecting to 127.0.0.1 on port 5001
+20251211-07:37:11.634 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:37:39.882 : Connecting to 127.0.0.1 on port 5001
+20251211-07:37:41.913 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:38:10.140 : Connecting to 127.0.0.1 on port 5001
+20251211-07:38:12.177 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:38:40.401 : Connecting to 127.0.0.1 on port 5001
+20251211-07:38:42.428 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:39:10.727 : Connecting to 127.0.0.1 on port 5001
+20251211-07:39:12.759 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:39:41.034 : Connecting to 127.0.0.1 on port 5001
+20251211-07:39:43.073 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:40:11.288 : Connecting to 127.0.0.1 on port 5001
+20251211-07:40:13.321 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:40:41.536 : Connecting to 127.0.0.1 on port 5001
+20251211-07:40:43.566 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:41:14.017 : Created session
+20251211-07:41:14.069 : Connecting to 127.0.0.1 on port 5001
+20251211-07:41:14.109 : Connection succeeded
+20251211-07:41:14.120 : Initiated logon request
+20251211-07:41:14.156 : Received logon
+20251211-07:42:08.911 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-07:42:14.712 : Connecting to 127.0.0.1 on port 5001
+20251211-07:42:16.761 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:43:43.993 : Created session
+20251211-07:43:44.042 : Connecting to 127.0.0.1 on port 5001
+20251211-07:43:44.048 : Connection succeeded
+20251211-07:43:44.061 : Initiated logon request
+20251211-07:43:44.101 : Received logon
+20251211-07:44:00.037 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-07:46:40.430 : Created session
+20251211-07:46:40.480 : Connecting to 127.0.0.1 on port 5001
+20251211-07:46:40.506 : Connection succeeded
+20251211-07:46:40.517 : Initiated logon request
+20251211-07:46:40.557 : Received logon
+20251211-07:46:59.628 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-07:47:10.774 : Connecting to 127.0.0.1 on port 5001
+20251211-07:47:12.827 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:47:41.081 : Connecting to 127.0.0.1 on port 5001
+20251211-07:47:43.134 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:51:08.968 : Created session
+20251211-07:51:09.017 : Connecting to 127.0.0.1 on port 5001
+20251211-07:51:09.024 : Connection succeeded
+20251211-07:51:09.037 : Initiated logon request
+20251211-07:51:09.076 : Received logon
+20251211-07:51:36.342 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-07:51:39.301 : Connecting to 127.0.0.1 on port 5001
+20251211-07:51:41.355 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:52:14.508 : Created session
+20251211-07:52:14.551 : Connecting to 127.0.0.1 on port 5001
+20251211-07:52:14.590 : Connection succeeded
+20251211-07:52:14.603 : Initiated logon request
+20251211-07:52:14.676 : Received logon
+20251211-07:52:29.438 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-07:52:44.873 : Connecting to 127.0.0.1 on port 5001
+20251211-07:52:46.924 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:53:15.154 : Connecting to 127.0.0.1 on port 5001
+20251211-07:53:17.195 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:53:45.458 : Connecting to 127.0.0.1 on port 5001
+20251211-07:53:47.504 : Connection failed: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:5001
+20251211-07:54:17.758 : Created session
+20251211-07:54:17.801 : Connecting to 127.0.0.1 on port 5001
+20251211-07:54:17.808 : Connection succeeded
+20251211-07:54:17.822 : Initiated logon request
+20251211-07:54:17.859 : Received logon
+20251211-07:55:09.296 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-08:11:51.784 : Created session
+20251211-08:11:51.824 : Connecting to 127.0.0.1 on port 5001
+20251211-08:11:51.830 : Connection succeeded
+20251211-08:11:51.837 : Initiated logon request
+20251211-08:11:51.886 : Received logon
+20251211-08:13:06.743 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-08:13:52.064 : Created session
+20251211-08:13:52.105 : Connecting to 127.0.0.1 on port 5001
+20251211-08:13:52.135 : Connection succeeded
+20251211-08:13:52.135 : Initiated logon request
+20251211-08:13:52.199 : Received logon
+20251211-08:13:52.215 : Got resend request from 35 to 0
+20251211-08:13:52.215 : Sent SequenceReset TO: 37
+20251211-08:14:34.898 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251211-08:15:58.420 : Created session
+20251211-08:15:58.457 : Connecting to 127.0.0.1 on port 5001
+20251211-08:15:58.494 : Connection succeeded
+20251211-08:15:58.516 : Initiated logon request
+20251211-08:15:58.556 : Received logon
+20251211-08:21:12.886 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251212-01:33:08.986 : Session FIX.4.2:BUYSIDE->SELLSIDE already disconnected: Resetting...
+20251212-01:33:09.000 : Session reset: New session
+20251212-01:33:09.000 : Created session
+20251212-01:33:09.037 : Connecting to 127.0.0.1 on port 5001
+20251212-01:33:09.080 : Connection succeeded
+20251212-01:33:09.097 : Initiated logon request
+20251212-01:33:09.138 : Received logon
+20251212-01:35:29.992 : Created session
+20251212-01:35:30.031 : Connecting to 127.0.0.1 on port 5001
+20251212-01:35:30.037 : Connection succeeded
+20251212-01:35:30.051 : Initiated logon request
+20251212-01:35:30.086 : Received logon
+20251212-01:36:25.133 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251212-01:37:38.233 : Created session
+20251212-01:37:38.272 : Connecting to 127.0.0.1 on port 5001
+20251212-01:37:38.313 : Connection succeeded
+20251212-01:37:38.325 : Initiated logon request
+20251212-01:37:38.360 : Received logon
+20251212-01:43:57.957 : Session FIX.4.2:BUYSIDE->SELLSIDE disconnecting: System.Net.Sockets.SocketException (0x80004005): 遠端主機已強制關閉一個現存的連線。
+   於 QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   於 QuickFix.SocketInitiatorThread.Read()
+20251212-01:46:10.661 : Created session
+20251212-01:46:10.702 : Connecting to 127.0.0.1 on port 5001
+20251212-01:46:10.708 : Connection succeeded
+20251212-01:46:10.722 : Initiated logon request
+20251212-01:46:10.757 : Received logon
